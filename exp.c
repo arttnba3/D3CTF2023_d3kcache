@@ -385,7 +385,7 @@ void prepare_pgv_system(void)
 
 int pgv_1page_start_idx = 0;
 int pgv_4pages_start_idx = PGV_4PAGES_START_IDX;
-int pgv_8pages_start_idx = PGV_8PAGES_SPRAY_NUM;
+int pgv_8pages_start_idx = PGV_8PAGES_START_IDX;
 
 /* spray pages in different size for various usages */
 void prepare_pgv_pages(void)
